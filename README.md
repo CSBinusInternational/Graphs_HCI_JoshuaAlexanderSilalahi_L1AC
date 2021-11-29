@@ -8,4 +8,4 @@ Class: L1AC
 Student ID: 2502005244
 <br>
 <br>
-Live Link: https://joshualxndrs.github.io/Graphs_HCI_JoshuaAlexanderSilalahi_L1AC/
+GitHub Live Link: https://joshualxndrs.github.io/Graphs_HCI_JoshuaAlexanderSilalahi_L1AC/
