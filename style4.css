@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  background-color: gray;
+  background-size: cover;
+  height: 100vh;
+}
+.navbar {
+  height: 80px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.navbar ul {
+  float: right;
+  margin-right: 20px;
+}
+.navbar ul li {
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 80px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  padding: 6px 13px;
+  font-family: "Roboto", sans-serif;
+  transition: 0.4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover {
+  background: rgb(9, 231, 68);
+  border-radius: 2px;
+}
+figure {
+  background-color: grey;
+  display: block;
+  height: 0;
+  margin: 0 auto;
+  position: relative;
+  font-size: 16px;
+  font-size: 1vw;
+  width: 40em;
+  padding-bottom: 40em;
+}
+figcaption {
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 40%;
+  z-index: 2;
+  font-family: "Roboto", sans-serif;
+}
+svg {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: visible;
+}
+circle {
+  fill: rgba(0, 0, 0, 0);
+  stroke-width: 31.8309886184;
+  stroke-dasharray: 0, 0, 0, 100;
+  stroke-dashoffset: 25;
+  -webkit-animation: pie1 3s infinite ease both;
+  animation: pie1 6s infinite ease both;
+}
+.pie1 {
+  stroke: hsl(180, 70%, 50%);
+}
+.pie2 {
+  stroke: hsl(180, 70%, 50%);
+  -webkit-animation-name: pie2;
+  animation-name: pie2;
+}
+.pie3 {
+  stroke: hsl(221, 91%, 48%);
+  -webkit-animation-name: pie3;
+  animation-name: pie3;
+}
+.pie4 {
+  stroke: hsl(268, 98%, 62%);
+  -webkit-animation-name: pie4;
+  animation-name: pie4;
+}
+
+@-webkit-keyframes pie1 {
+  50%,
+  100% {
+    stroke-dasharray: 40, 60, 0, 0;
+  }
+}
+@keyframes pie1 {
+  50%,
+  100% {
+    stroke-dasharray: 40, 60, 0, 0;
+  }
+}
+
+@-webkit-keyframes pie2 {
+  50%,
+  100% {
+    stroke-dasharray: 0, 40, 30, 30;
+  }
+}
+@keyframes pie2 {
+  50%,
+  100% {
+    stroke-dasharray: 0, 40, 30, 30;
+  }
+}
+
+@-webkit-keyframes pie3 {
+  50%,
+  100% {
+    stroke-dasharray: 0, 70, 20, 10;
+  }
+}
+@keyframes pie3 {
+  50%,
+  100% {
+    stroke-dasharray: 0, 70, 20, 10;
+  }
+}
+
+@-webkit-keyframes pie4 {
+  50%,
+  100% {
+    stroke-dasharray: 0, 90, 10, 0;
+  }
+}
+@keyframes pie4 {
+  50%,
+  100% {
+    stroke-dasharray: 0, 90, 10, 0;
+  }
+}
